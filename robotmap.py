@@ -16,9 +16,18 @@ buttons.TRIANGLE = 4
 buttons.L_BUMPER = 5
 buttons.R_BUMPER = 6
 
+
+axes = InfoPasser()
+
+axes.Left_x = 0
+axes.Left_y = 1
+
+axes.Right_x = 2
+axes.Right_y = 5
+
 channels = InfoPasser()
 
 channels.frontLeftChannel = 2
-channels.rearLeftChannel = 3
+channels.rearLeftChannel = 4
 channels.frontRightChannel = 1
-channels.rearRightChannel = 0
+channels.rearRightChannel = 3
